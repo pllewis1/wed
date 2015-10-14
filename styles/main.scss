@@ -1,0 +1,17 @@
+@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import '../bower_components/neat/app/assets/stylesheets/neat';
+
+.shots {
+  @include outer-container;
+  margin-left: 0;
+  margin-right:0px;
+}
+
+.column1 {
+  @include span-columns(6) ;
+  margin: 0;
+}
+.column2 {
+  @include span-columns(6) ;
+  margin: 0;
+}

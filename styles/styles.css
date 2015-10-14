@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+.shots {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 0;
+  margin-right: 0px; }
+  .shots::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.column1 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin: 0; }
+  .column1:last-child {
+    margin-right: 0; }
+
+.column2 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin: 0; }
+  .column2:last-child {
+    margin-right: 0; }
