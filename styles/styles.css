@@ -6,22 +6,24 @@ html {
 *::before {
   box-sizing: inherit; }
 
-header nav {
-  width: 100%;
-  height: 12px;
-  padding: 7px; }
-  header nav a {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 18.96686%;
-    color: #818181; }
-    header nav a:last-child {
-      margin-right: 0; }
-    header nav a:nth-of-type(1) {
-      margin-right: 27px;
-      margin-left: 8.5298%; }
-    header nav a:hover {
+header {
+  height: 37px; }
+  header nav {
+    width: 100%;
+    height: 12px;
+    padding: 7px; }
+    header nav a {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 18.96686%;
+      color: #818181; }
+      header nav a:last-child {
+        margin-right: 0; }
+      header nav a:nth-of-type(1) {
+        margin-right: 27px;
+        margin-left: 8.5298%; }
+    header nav:hover {
       color: #519251; }
 
 .splash_screen {
@@ -36,7 +38,8 @@ header nav {
     text-align: center; }
 
 section {
-  margin-top: 35px; }
+  margin-top: 35px;
+  height: 574px; }
 
 .greenblock {
   float: left;
@@ -175,7 +178,7 @@ footer {
       font-size: 50px;
       padding-top: 46px; } }
 
-@media (min-width: 761px) {
+@media (min-width: 767px) {
   header nav a {
     float: left;
     display: block;
@@ -187,3 +190,9 @@ footer {
     header nav a:nth-of-type(1) {
       margin-right: 110px;
       margin-left: 4.2649%; } }
+
+@media (min-width: 978px) {
+  .splash_screen {
+    height: 401px;
+    width: 100%;
+    padding-top: 83px; } }
